@@ -10,7 +10,7 @@ django=2.1.2
 freetype=2.9.1
 gast=0.2.0
 grpcio=1.14.1
-gunicorn==19.1.0
+gunicorn=19.1.0
 h5py=2.8.0
 hdf5=1.10.2
 intel-openmp
