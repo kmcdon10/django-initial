@@ -25,7 +25,7 @@ SECRET_KEY = 'uzw$to=oz2l9$-ss+t7s71tol0x$l)x+)y$8&d0t9%pb156o25'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['phototagger491.herokuapp.com', 'phototagger491-pr.herokuapp.com']
 
 
 # Application definition
@@ -118,5 +118,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
