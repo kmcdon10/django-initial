@@ -13,10 +13,8 @@ hdf5==1.10.2
 intel-openmp
 keras-applications==1.0.6
 keras-preprocessing==1.0.5
-libcxx==4.0.1
 libffi==3.2.1
 libpng==1.6.35
-libprotobuf==3.6.1
 libtiff==4.0.9
 markdown==2.6.11
 mkl==2019.0
