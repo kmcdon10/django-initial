@@ -1,10 +1,10 @@
-name: photoTaggerEnv
+name: photoTagger
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - django=2.1.2
   - numpy=1.15.2
   - pillow=5.3.0
   - python=3.6.6
-  - tensorflow=1.10
+  - tensorflow=1.11.0
